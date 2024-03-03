@@ -7,7 +7,6 @@ let securityPackage = true;
 
 if (yearOfManufacture >= 2019 && yearOfManufacture <= 2022) {
   yearOfManufacture = basicValue + (basicValue * 10) / 100;
-
   console.log(basicValue);
   console.log(
     `The final price of the car relative to the year of manufacture ${yearOfManufacture} грн`
