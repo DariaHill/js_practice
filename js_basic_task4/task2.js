@@ -7,3 +7,4 @@ for(const string of strings){
 }
 
 console.log(strings2)
+
