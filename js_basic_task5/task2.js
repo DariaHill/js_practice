@@ -1,6 +1,6 @@
 /* Напишіть функцію, яка приймає масив чисел в якості аргументу і повертає новий масив, в якому кожен елемент буде піднесений до квадрата. */
 
-let inputArray=(5,7,3,9,4);
+/* let inputArray=(5,7,3,9,4);
 let squaredArr=inputArray(inputArray);
 
 function numbersInSquared (arr){
@@ -10,4 +10,9 @@ for (let i=0; i<arr.length; i++){
     return squaredArr;
 }
 }
-console.log(squaredArr)
+console.log(squaredArr) */
+
+
+let squear =a=> a*a;
+
+console.log(squear(5));
