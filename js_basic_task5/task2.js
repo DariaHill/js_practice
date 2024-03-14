@@ -10,9 +10,20 @@ for (let i=0; i<arr.length; i++){
     return squaredArr;
 }
 }
-console.log(squaredArr) */
+console.logsquareArrayElements(squaredArr) */
+
+function squareArrayElements (arr){
+    let squaredArray = arr.map(function(element){
+        return element* element;
+    });
+    return squaredArray ;
+}
+
+let inputArray = [5,7,9,3,4];
+squaredArray = squareArrayElements(inputArray);
+console.log("Масив з піднесеними до квадрату елементами:", squaredArray);
 
 
-let squear =a=> a*a;
+/* let squear =a=> a*a;
 
-console.log(squear(5));
+console.log(squear(5)); */
