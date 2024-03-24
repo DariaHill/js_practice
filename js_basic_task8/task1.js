@@ -1,5 +1,5 @@
 class Animal{
-constructot(color, name, type){
+constructor(color, name, type){
     this.color= color;
     this.name= name;
     this.type= type;
